@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@300;500&display=swap');
+* {
+    margin: 0;
+    font-family: 'Mitr';
+}
+#header-container {
+    display: flex;
+    background-color: #7F7F7F;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    font-family: 'Mitr';
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.intro-container {
+    width: 100%;
+
+}
+.intro {
+    width: 50%;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 30px 0px 20px 30px;
+}
+
+   .accordion{
+   padding: 10px;
+   margin: 20px 100px;
+   background: #3D3D3D;
+   border-radius: 10px;
+
+  }
+  .accordion__question p{
+   margin: 5px;
+   padding: 0;
+   font-family: Verdana;
+   font-size: 20px;
+   color: #FFFFFF;
+  }
+  .accordion__answer p{
+   margin: 5px;
+   padding: 10px;
+   font-size: large;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color: #000000;
+   background: #D9D9D9;
+   border-radius: 10px;
+  }
+  .accordion:hover{
+   cursor: pointer;
+  }
+  .accordion__answer {
+   display: none;
+  }
+  .accordion.active .accordion__answer {
+   display: block;
+  } 
