@@ -1,0 +1,14 @@
+{
+    "questions": [
+        {
+            "question": "A internet caiu, e agora?", 
+            "answer": "tem q abrir chamado",
+            "category": "rede"
+        },
+        {
+            "question": "Fazemos trocas de Tonner", 
+            "answer": "yep",
+            "category": "impressora"
+        }
+    ]
+}
