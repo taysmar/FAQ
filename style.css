@@ -43,6 +43,9 @@ input[type="checkbox"]:checked:after {
     height: 0.8rem;
     width: 0.75rem;
   }
+  .hide {
+    display: none;
+  }
 .filter {
     display: flex;
     justify-content: space-between;
